@@ -23,5 +23,6 @@
     "maintained node versions",
     "not dead"
   ],
-  "description": ""
+  "description": "",
+  "dependencies": {}
 }

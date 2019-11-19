@@ -51,4 +51,28 @@ $(document).ready(function(){
         })
     });
 
+    function validateForm(form){
+        $(form).validate({
+            rules: {
+                name: "required",
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: "Пожалуйста укажите свое имя",
+                phone: "Пожалуйста укажите свой номер телефона",
+                email: {
+                  required: "Нам необходима ваша почта чтобы связаться с вами",
+                  email: "Ваша почта должна быть в формате name@domain.com",
+                }
+            }
+        });
+    };
+
+    validateForm('#consultation__form')
+    validateForm('#consultation form')
+    validateForm('#order form')
 }); 
