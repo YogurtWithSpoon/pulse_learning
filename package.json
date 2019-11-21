@@ -23,6 +23,14 @@
     "maintained node versions",
     "not dead"
   ],
-  "description": "",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YogurtWithSpoon/pulse_learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YogurtWithSpoon/pulse_learning/issues"
+  },
+  "homepage": "https://github.com/YogurtWithSpoon/pulse_learning#readme",
+  "description": ""
 }

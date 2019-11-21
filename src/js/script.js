@@ -77,4 +77,19 @@ $(document).ready(function(){
     validateForm('#order form')
 
     $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 1600) {
+        $('.pageup').fadeIn();
+        } else {
+        $('.pageup').fadeOut();
+        }
+    });
+
+    $('a[href^="#"]').click(function(){
+    const el = $(this).attr('href');
+    $('html, body').animate({
+    scrollTop: $(el).offset().top}, 1600);
+    return false;
+    });
 }); 
