@@ -78,7 +78,6 @@ $(document).ready(function(){
 
     $('input[name=phone]').mask("+7 (999) 999-99-99");
 
-<<<<<<< HEAD
     // smooth scroll and page up
     $(window).scroll(function(){
         if ($(this).scrollTop() > 1600){
@@ -95,20 +94,4 @@ $(document).ready(function(){
     });
     // wow js 
     new WOW().init();
-=======
-    $(window).scroll(function() {
-        if ($(window).scrollTop() > 1600) {
-        $('.pageup').fadeIn();
-        } else {
-        $('.pageup').fadeOut();
-        }
-    });
-
-    $('a[href^="#"]').click(function(){
-    const el = $(this).attr('href');
-    $('html, body').animate({
-    scrollTop: $(el).offset().top}, 1600);
-    return false;
-    });
->>>>>>> b54dc7d401044038f38be0f74609acdbd13b125e
 }); 
