@@ -1,6 +1,6 @@
 # Landing Page for Heart Rate Monitor Sell
 ![alt text](https://github.com/YogurtWithSpoon/PicturesForProjects/blob/master/pulse.png?raw=true)
-### Used libraries
+### Used
 * slick for carousel
 * jquery for faster production 
 * wow for animation
